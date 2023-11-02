@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice set 6</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header nav{
+            display:flex;
+            justify-content:space-evenly;
+            background: pink;
+            height: 70px;
+            align-items: center;
+            
+        }
+        header nav a{
+            text-decoration: none;
+
+        }
+        .image{
+            width: 300px;
+            height:400px;
+            margin: 5px;
+            border: solid black;
+            box-shadow: 2px 2px 5px rgba(0,0,0,.3);
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .image img{
+            width: 100px;
+            height: 100px;
+        }
+        footer{
+            position: absolute;
+            bottom:0;
+        }
+        .media1{
+            width:500px;
+            height:200px;
+            border: solid 3px;
+            background-color: green;
+            
+
+        }
+        .mediabox{
+            border: solid brown 1px;
+            width: 2em ;
+            height:4em ;
+            margin:10px;
+
+        }
+        @media screen and (max-width:400px) and (min-width:300px){
+            .media1{
+                background-color: red;
+            }
+        }
+        @media screen and (min-width: 400px){
+            .media1{
+            background-color: purple;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#"> Home</a>
+            <a href="#">about</a>
+            <a href="#">help</a>
+            <a href="#"> contact us</a>
+        </nav>
+    </header>
+
+    <div class="image">
+        <img src="/images/amazon.webp">
+    </div>
+
+
+    <div class="media1">
+        <div class="mediabox"> box 1</div>
+
+    </div>
+
+    <footer>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit deleniti assumenda accusantium distinctio blanditiis quibusdam rem neque illo veritatis eaque magni, debitis dicta aliquam adipisci necessitatibus voluptatibus, harum, dolorum tempora.
+    </footer>
+</body>
+</html>

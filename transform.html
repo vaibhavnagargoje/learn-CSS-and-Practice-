@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+    <style>
+        .Trans{
+            display: flex;
+            justify-content: center;
+            justify-content: space-around;
+            
+        }
+        .box{
+            height: 100px;
+            width:120px;
+            background-color: lightgreen;
+            border: solid 1px;
+            margin: 5px;
+            border-radius: 10px;
+           
+        }
+        .box1{
+            transform: rotate(45deg);
+        }
+        .box2{
+            transform:scaley(1) scalex(3);
+        }
+    </style>
+</head>
+<body>
+    <div class="Trans">
+        <div class="box box1">Rotate</div>
+        <div class="box box2"> scale </div>
+    </div>
+</body>
+</html>

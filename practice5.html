@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale">
+    <title>Practice 5</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+
+        }
+        header nav a{
+            
+            text-decoration:none;
+            margin-left:50px;
+            
+        }
+        nav{
+            padding: 15px;
+        }
+        header{
+            background-color: lightgrey;
+            height:50px;
+        }
+        .second{
+            background-color: green;
+            border: solid black 3px;
+             border-radius:50%;
+             height:100px;
+             width:100px;
+
+        }
+        .div{
+            display:inline-block;
+            height:100px;
+            width:100px;
+            background-color: pink;
+
+        }
+        .container{
+           border:3px solid black;
+           margin-top: 10px;
+           margin-bottom: 20px;
+        }
+        .box3{
+            /* float: right; */
+            position:fixed;
+            right:5px;
+            border: 2px black solid;
+            border-radius:0px 10px
+
+
+        }
+        .box3 h4{
+            color:orangered;
+            font-size:20px;
+            display:inline-block;
+            position: relative;
+            margin:2em 1em;
+        }
+        .div2{
+            position:relative;
+            z-index:9;
+            left:10px;
+            background-color: red;
+
+        }
+        .div3{
+            position: relative;
+            right:50px;
+            z-index: 5;
+            
+        }
+        footer{
+            position: fixed;
+            bottom:0;
+            background-color:darkcyan ;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#"> Home</a>
+            <a href="#"> products</a>
+            <a href="#"> contact</a>
+            <a href="#"> About us</a>
+        </nav>
+    </header>
+    <div class="second"></div>
+    <div class="container">
+        <div class="div1 div"> div 1</div>
+        <div class="div2 div"> div 2</div>
+        <div class="div3 div "> div 3</div>
+</div>
+    
+
+    <div class="box3 div "><h4>position</h4></div>
+    <footer>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed illum culpa similique quam nemo ducimus ex pariatur provident dicta libero?
+
+    </footer>
+   </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media query</title>
+    <style>
+        .container{
+            background-color:  darkmagenta;
+            height: 100px;
+            WIDTH:100PX;
+        }
+        .container2{
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            margin-top: 100px;
+            border:5px solid;
+        }
+        
+        .container3{
+            width: 200px;
+            height: 200px;
+            background-color: purple;
+            margin-top: 100px;
+          
+        }
+        
+        @media screen and (min-width: 350px) and (max-width:500px ){
+            .container{
+                border:dashed black 3px;
+                background-color: pink;
+            }
+            .container2{
+                width: 300px;
+                height:350px;
+                background-color: darkgreen;
+
+            }
+            .container3{
+                border-radius: 50%;
+            }
+        }
+        @media screen and(min-width:300px) and (max-width:400px){
+            *{
+                background-color: yellow;
+                
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+    </div>
+    <div class="container2"></div>
+    <div class="container3">
+
+    </div>
+</body>
+</html>

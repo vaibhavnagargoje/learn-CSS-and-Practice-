@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>relative image persentage</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+        }
+        .box{
+             background-color:green;
+             border:solid 1px black;
+             border-radius:3px;
+             /* display:inline-block; */
+             height:100px;
+             width:100px;
+             margin:10px;
+        }
+        .box1{
+            position:static;
+            
+        }
+        .box2{
+            position:relative;
+            top:0px;
+            left:70px;
+            background-color: red;
+
+        }
+        .box3{
+            position:absolute;
+            right:60px;
+            top:30px;
+            background-color: pink;
+
+        }
+        .box4{
+            background-color:blue;
+            position:fixed;
+            right: 60px;;
+        }
+    </style>
+</head>
+<body>
+   <div class="box1 box ">box 1</div> 
+   <div class="box2 box">Box 2</div>
+   <div class="box3 box">Box 3</div>
+   <div class="box4 box">Box 4</div>
+</body>
+</html>
